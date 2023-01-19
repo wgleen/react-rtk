@@ -1,7 +1,8 @@
 import { Link, useParams } from "react-router-dom";
 import { useForm, SubmitHandler } from "react-hook-form"
-import { Post, PostBody } from "../../../types";
-import { useGetPostByIdQuery, useUpdatePostMutation } from "../../../application/posts";
+import { PostBody } from "../../../types";
+import { useGetPostByIdQuery } from "../../../application/useGetPostById";
+import { useUpdatePostMutation } from "../../../application/useUpdatePost";
 import { ROUTES } from "../../Routes";
 
 function PostEdit() {

@@ -46,5 +46,3 @@ export const useGetPostsQuery: UseGetPostsQuery = () => {
     data,
   };
 };
-
-export const { useGetPostByIdQuery, useUpdatePostMutation } = postsApi;

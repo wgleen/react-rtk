@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { useGetPostByIdQuery } from "../../../application/posts";
+import { useGetPostByIdQuery } from "../../../application/useGetPostById";
 import { ROUTES } from "../../Routes";
 
 function PostsDetails() {

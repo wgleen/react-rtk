@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { useGetPostsQuery } from "../../../application/posts";
+import { useGetPostsQuery } from "../../../application/useGetPosts";
 
 function PostsListTwo() {
   const { setPrev, setNext, data, isLoading, isError } = useGetPostsQuery({});
